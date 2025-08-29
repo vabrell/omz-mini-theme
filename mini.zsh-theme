@@ -10,5 +10,5 @@ ZSH_THEME_GIT_PROMPT_UNMERGED="%{${FG[006]}%}§ "
 ZSH_THEME_GIT_PROMPT_UNTRACKED="%{${FG[008]}%}◒ "
 
 PROMPT='%{$FG[008]%}[%{$FG[006]%}%~%{$FG[008]%}]
-%{%(!.${FG[001]}.${fg[006]})%}⟫%{$reset_color%} '
+ %{%(!.${FG[001]}.${fg[006]})%}▷%{$reset_color%} '
 RPROMPT='%{$(echotc UP 1)%}$(git_prompt_status)$(git_prompt_info)%{$(echotc DO 1)%}'
